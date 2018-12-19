@@ -12,8 +12,8 @@ def plot_n_atoms(lens):
     fig = sns.distplot(np.array(lens)[:,0])
     fig.set(xlabel='number of atoms')
     
-
-db_cmr = connect('/home/felix/databases/mixdim.db')
+# connect to databases
+db_cmr = connect('mixdim.db')
 db = connect('mixdim_DL.db')
 
 entry_dic = {}
@@ -61,7 +61,6 @@ for cl in score_strings:
     print(cl, ' number of entries: ',len(entry_dic[cl]))
     
 # now pick 2000 random structures each
-    
 final_dic = {}
 for key in vars(dummy_line)['_keys']:
     if 's_' in key:
