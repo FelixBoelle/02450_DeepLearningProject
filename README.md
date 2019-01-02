@@ -1,4 +1,4 @@
-# 02450_DeepLearningProject
+# 02450 DeepLearningProject
 Deep Learning Project for the class 02450 DeepLearning taught at Denmarks Technical University (DTU) Fall 2018
 
 For repoucing the results the following has to be done:
